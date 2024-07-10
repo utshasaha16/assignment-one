@@ -52,10 +52,10 @@ body{
 .development-section{
     width: 1140px;
     height: auto;
-    /* border: 2px solid black; */
     margin: auto;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
+    padding-bottom: 80px;
 }
 .web{
     text-align: center;
@@ -118,9 +118,121 @@ iframe {
 .ins-img {
     width: 1140px;
     padding-top: 20px;
-    background-color: rgba(13, 19, 33, 0.2);
+    background-color: rgba(13, 19, 33, 0.014);
     border-radius: 16px;
 }
 .ins-img img{
     height: 550px;
+}
+/* my terget */
+.current-terget{
+    width:1140px ;
+}
+.terget-content{
+    text-align: center;
+    padding-top: 100px;
+}
+.terget-content h1{
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+.terget-content p{
+    font-size: 16px;
+    width: 880px;
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+}
+.terget{
+    display: flex;
+    width: 1080px;
+    margin: auto;
+}
+.terget-sub{
+    width: 360px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 16px;
+}
+.u{
+    background-color: rgba(243, 120, 89, 0.192);
+}
+.s{
+   background-color: rgba(106, 248, 165, 0.445); 
+}
+.sa{
+    background-color: rgba(247, 231, 127, 0.493);
+}
+.terget-sub h1{
+    font-size: 32px;
+    padding-top: 30px;
+}
+.terget-sub p{
+    font-size: 16px;
+    padding-top: 30px;
+}
+.terget-sub a{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: block;
+    color: black;
+}
+
+/* footer section */
+
+.footer-text{
+    width: 1050px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px ;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #131212;
+    text-align: center;
+    border-radius: 16px;
+}
+.footer-text h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+.footer-text p{
+    color: #fff;
+}
+.a{
+    padding-top: 30px;
+}
+.a input{
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
+.a button{
+    padding: 17px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.footer-nav{
+    width: 1140px;
+    padding:30px;
+    display: flex;
+    margin-right: 30px;
+    margin: auto;
+}
+.footer-nav p{
+    width: 490px;
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.icon{
+    text-align: right;
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    margin-right: 20px;
 }
